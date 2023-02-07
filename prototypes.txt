@@ -1,0 +1,33 @@
+Subscription cancelled
+Email Confirmation Success -> Add Payment Method Success -> Subscription Premium -> Add Vehicle Break -> Chat Conversation Started -> Transaction Refund -> Subscription Premium Cancel -> Sign Out
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Chat Conversation Opened -> Chat Conversation Started -> Subscription Premium Cancel -> Transaction Refund
+Email Confirmation Success -> Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Account Setup Profile Skip -> Account Setup Profile Skip -> Account Setup Profile Skip -> Wallet Opened -> Chat Conversation Started -> Subscription Premium Cancel -> Transaction Refund
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Order -> Order -> Wallet Opened -> Chat Conversation Opened -> Chat Conversation Started -> Subscription Premium Cancel
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Wallet Opened -> Chat Conversation Opened -> Chat Conversation Started -> Chat Conversation Opened -> Chat Conversation Opened -> Chat Conversation Started -> Subscription Premium Cancel -> Transaction Refund -> Chat Conversation Opened
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Chat Conversation Started -> Chat Conversation Started -> Subscription Premium Cancel -> Transaction Refund -> Chat Conversation Started -> Chat Conversation Started
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Wallet Opened -> Calculator View -> Chat Conversation Opened -> Chat Conversation Started -> Subscription Premium Cancel -> Transaction Refund -> Chat Conversation Opened
+Email Confirmation Success -> Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Account History Transaction Details -> Calculator View -> Calculator View -> Account History Transaction Details -> Chat Conversation Opened -> Chat Conversation Started -> Subscription Premium Cancel
+
+Subscription not cancelled
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Order
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Account Setup Profile Skip -> Calculator View -> Sign Out
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Calculator View -> Wallet Opened -> Subscription Premium Renew
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium
+Calculator View -> Add Payment Method Success -> Subscription Premium -> Add Vehicle Break
+Email Confirmation Success -> Add Vehicle Success -> Add Payment Method Success -> Subscription Premium
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Wallet Opened -> Calculator View -> Wallet Opened -> Order -> Order -> Order -> Subscription Premium Renew
+Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Order -> Order -> Subscription Premium Renew -> Order -> Order
+
+False Positives
+Sign Up Success -> Add Vehicle Success -> Add Payment Method Failed -> Add Payment Method Failed -> Add Payment Method Failed -> Add Payment Method Success -> Subscription Premium -> Chat Conversation Opened -> Chat Conversation Started
+Sign Up Success -> Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Account History Transaction Details -> Wallet Opened -> Chat Conversation Opened -> Chat Conversation Started -> Chat Conversation Opened -> Chat Conversation Started
+Sign Up Success -> Add Payment Method Success -> Subscription Premium -> Add Vehicle Break -> Add Vehicle Success -> Subscription Premium Renew
+Sign Up Success -> Email Confirmation Success -> Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Wallet Opened -> Chat Conversation Opened -> Chat Conversation Started -> Chat Conversation Opened
+Sign Up Success -> Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Account Setup Profile Skip -> Account Setup Profile Skip -> Chat Conversation Opened -> Chat Conversation Started
+Sign Up Success -> Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Account Setup Profile Skip -> Wallet Opened -> Wallet Opened -> Add Payment Method Success
+
+False Negatives
+Sign Up Success -> Email Confirmation Success -> Account Setup Skip -> Account Setup Profile Skip -> Account Setup Profile Skip -> Account Setup Profile Skip -> Chat Conversation Opened -> Wallet Opened -> Add Payment Method Success -> Subscription Premium -> Account History Transaction Details -> Wallet Opened -> Subscription Premium Cancel
+Sign Up Success -> Add Vehicle Success -> Add Payment Method Success -> Account Setup Profile Skip -> Account Setup Profile Skip -> Subscription Premium -> Chat Conversation Opened -> Chat Conversation Opened -> Chat Conversation Started -> Subscription Premium Cancel -> Transaction Refund -> Order -> Order
+Sign Up Success -> Email Confirmation Success -> Add Vehicle Success -> Account Setup Profile Skip -> Account Setup Profile Skip -> Add Payment Method Success -> Subscription Premium -> Chat Conversation Opened -> Chat Conversation Opened -> Account History Transaction Details -> Chat Conversation Opened -> Wallet Opened -> Add Payment Method Success -> Subscription Premium Cancel -> Chat Conversation Opened
+Sign Up Success -> Add Vehicle Success -> Add Payment Method Success -> Subscription Premium -> Account History Transaction Details -> Account History Transaction Details -> Account History Transaction Details -> Wallet Opened -> Subscription Premium Cancel -> Order -> Order -> Account History Transaction Details -> Wallet Opened
